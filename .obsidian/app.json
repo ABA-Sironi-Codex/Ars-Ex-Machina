@@ -1,0 +1,20 @@
+{
+  "livePreview": false,
+  "strictLineBreaks": true,
+  "propertiesInDocument": "visible",
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": null,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showInlineTitle": true,
+  "defaultViewMode": "preview"
+}
