@@ -4,7 +4,7 @@ tags:
   - informazioni-generali
 ---
 
-![[header.webp]]
+![[headerimg.webp]]
 
 Questo *repository* contiene tutti i materiali di supporto alla didattica realizzati dal prof. Davide Riboli (cattedra di Applicazioni Digitali per l'Arte) per gli studenti della [Accademia di Belle Arti "Mario Sironi" di Sassari](http://accademiasironi.it).
 

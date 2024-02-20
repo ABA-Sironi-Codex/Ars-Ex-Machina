@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "01-Computer Art/01-Intro/01-CA-Programma.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "01-Computer Art/01-Intro/01-CA-Programma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "01-Computer Art/01-Intro/01-CA-Programma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "01-Computer Art/01-Intro/01-CA-Programma.md"
               }
             }
           },
@@ -156,8 +156,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ec8e84d81315eb0e",
+  "active": "ee429a13ca676a53",
   "lastOpenFiles": [
+    "README.md",
     "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
     "01-Computer Art/01-Intro/01-CA-Programma.md",
     "01-Computer Art/01-Intro/02-CA-Registro.md",
@@ -166,7 +167,6 @@
     "Materiali Comuni/Strumenti Obsidian/Modelli/LezioneTAD.md",
     "01-Computer Art/02-Lezioni/Lezione 01.md",
     "Materiali Comuni/DR/02-DR_CV.md",
-    "README.md",
     "02-Nuove Tecnologie Pittura/01-Intro/01-ProgrammaCorso.md",
     "Materiali Comuni/DR/DR.webp",
     "Materiali Comuni/DR",
