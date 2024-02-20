@@ -1,9 +1,8 @@
 ---
-title: Lezione XX Computer Art
+title: Lezione XXX Tecnologie Applicazioni Digitali
 data: Mercoledì 01/03/2024
 tags:
-  - assenti/Nome-Cognome
-  - computer-art
+  - TecnologieApplicazioniDigitali
 ---
 
 ## Argomenti trattati

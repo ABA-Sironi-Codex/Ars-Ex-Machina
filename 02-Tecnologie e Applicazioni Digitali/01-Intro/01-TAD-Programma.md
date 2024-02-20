@@ -1,8 +1,8 @@
 ---
 title: Tecnologie e Applicazioni Digitali - Programma del corso
 tags:
-  - informazioni-generali
-  - tecnologie-applicazioni-digitali
+  - InformazioniGenerali
+  - TecnologieApplicazioniDigitali
 ---
 
 ---

@@ -1,6 +1,6 @@
 ---
 tags:
-  - informazioni-generali
+  - InformazioniGenerali
 title: Davide Riboli Curriculum Vitæ
 ---
 

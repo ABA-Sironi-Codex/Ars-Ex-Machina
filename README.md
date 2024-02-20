@@ -1,7 +1,7 @@
 ---
 title: Ars Ex Machina
 tags:
-  - informazioni-generali
+  - InformazioniGenerali
 ---
 
 ![[headerimg.webp]]

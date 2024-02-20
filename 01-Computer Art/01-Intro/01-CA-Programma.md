@@ -1,8 +1,8 @@
 ---
 title: Computer Art - Programma del corso
 tags:
-  - informazioni-generali
-  - computer-art
+  - InformazioniGenerali
+  - ComputerArt
 ---
 
 ---
