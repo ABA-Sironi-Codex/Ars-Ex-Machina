@@ -3,6 +3,7 @@ title: Lezione XX Computer Art
 data: Mercoledì 01/03/2024
 tags:
   - ComputerArt
+  - TecnologieApplicazioniDigitali
 ---
 
 ## Abstract

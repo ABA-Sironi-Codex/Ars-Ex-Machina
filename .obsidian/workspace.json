@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ee429a13ca676a53",
+            "id": "0e0f59765c622f5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Materiali Comuni/IA/ComfyUI/Guida 01 - Installazione.md",
+                "file": "01-Computer Art/02-Lezioni/Lezione 01.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#assenti",
+                "query": "tag:#ComputerArt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "ad0c93f8488f1c2b",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Materiali Comuni/IA/ComfyUI/Guida 01 - Installazione.md",
+                "file": "01-Computer Art/02-Lezioni/Lezione 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Materiali Comuni/IA/ComfyUI/Guida 01 - Installazione.md",
+                "file": "01-Computer Art/02-Lezioni/Lezione 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Materiali Comuni/IA/ComfyUI/Guida 01 - Installazione.md"
+                "file": "01-Computer Art/02-Lezioni/Lezione 01.md"
               }
             }
           },
@@ -156,27 +155,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee429a13ca676a53",
+  "active": "0e0f59765c622f5e",
   "lastOpenFiles": [
+    "Materiali-Comuni/Strumenti-Obsidian/Modelli/Dispense.md",
+    "01-Computer Art/02-Lezioni/Lezione 01.md",
     "Scelte-Rapide.md",
-    "Materiali Comuni/IA/ComfyUI/Guida 01 - Installazione.md",
+    "02-Tecnologie e Applicazioni Digitali/02-Lezioni/Lezione 01.md",
+    "Materiali-Comuni/IA/ComfyUI/Guida 01 - Installazione di ComfyUI in locale.md",
     "01-Computer Art/01-Intro/01-CA-Programma.md",
-    "Materiali Comuni/Strumenti-Obsidian/Modelli/LezioneCA.md",
-    "Materiali Comuni/Strumenti-Obsidian/Modelli/LezioneTAD.md",
-    "Materiali Comuni/Strumenti-Obsidian/Modelli/Dispense.md",
+    "Materiali-Comuni/Strumenti-Obsidian/Modelli/LezioneCA.md",
+    "Materiali-Comuni/Strumenti-Obsidian/Modelli/LezioneTAD.md",
     "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
-    "Materiali Comuni/IA/ComfyUI",
-    "Materiali Comuni/IA",
+    "Materiali-Comuni/IA/ComfyUI",
+    "Materiali-Comuni/IA",
     "README.md",
     "01-Computer Art/01-Intro/02-CA-Registro.md",
     "02-Tecnologie e Applicazioni Digitali/01-Intro/02-TAD-Registro.md",
-    "01-Computer Art/02-Lezioni/Lezione 01.md",
-    "Materiali Comuni/DR/02-DR_CV.md",
+    "Materiali-Comuni/DR/02-DR_CV.md",
     "02-Nuove Tecnologie Pittura/01-Intro/01-ProgrammaCorso.md",
-    "Materiali Comuni/DR/DR.webp",
-    "Materiali Comuni/DR",
-    "Materiali Comuni/Strumenti-Obsidian/Modelli",
-    "Materiali Comuni/Strumenti-Obsidian",
+    "Materiali-Comuni/DR/DR.webp",
+    "Materiali-Comuni/DR",
+    "Materiali-Comuni/Strumenti-Obsidian/Modelli",
+    "Materiali-Comuni/Strumenti-Obsidian",
     "02-Tecnologie e Applicazioni Digitali/03-Materiali",
     "02-Tecnologie e Applicazioni Digitali/02-Lezioni",
     "02-Tecnologie e Applicazioni Digitali/01-Intro",
@@ -192,8 +192,6 @@
     "03-Lezioni/Lezione 01 1 1 1 1 1.md",
     "02-Registro/Registro assenze.md",
     "02-Registro/Frequenze.md",
-    "Lezione 01.md",
-    "Rossi Mario.md",
-    "Bianchi Paola.md"
+    "Lezione 01.md"
   ]
 }

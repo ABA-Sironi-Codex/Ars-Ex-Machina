@@ -1,5 +1,5 @@
 ---
-title: Guida 01 - Installazione
+title: Guida 01 - Installazione di ComfyUI in locale
 data: Mercoledì 01/03/2024
 tags:
   - ComfyUI
@@ -11,8 +11,11 @@ tags:
 [ComfyUI](https://github.com/comfyanonymous/ComfyUI) è la più diffusa interfaccia *open source* per la generazione di immagini e video con modelli [StableDiffusion](https://stability.ai). In questa guida vediamo come installarla sotto Linux, Macintosh e Windows.
 
 ---
+
+## Indice dei contenuti
+
 ```table-of-contents
-title: **Indice articolo**
+title: 
 style: nestedList # TOC style (nestedList|inlineFirstLevel)
 minLevel: 0 # Include headings from the specified level
 maxLevel: 0 # Include headings up to the specified level
