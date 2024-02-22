@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Computer Art/02-Lezioni/Lezione 01.md",
+                "file": "README.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Computer Art/02-Lezioni/Lezione 01.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Computer Art/02-Lezioni/Lezione 01.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Computer Art/02-Lezioni/Lezione 01.md"
+                "file": "README.md"
               }
             }
           },
@@ -157,11 +157,16 @@
   },
   "active": "0e0f59765c622f5e",
   "lastOpenFiles": [
-    "Materiali-Comuni/Strumenti-Obsidian/Modelli/Dispense.md",
-    "01-Computer Art/02-Lezioni/Lezione 01.md",
+    "headerimg.webp",
+    "Materiali-Comuni/IA/ComfyUI/Guida 02 - Installazione di ComfyUI Manager.md",
     "Scelte-Rapide.md",
-    "02-Tecnologie e Applicazioni Digitali/02-Lezioni/Lezione 01.md",
+    "Materiali-Comuni/Strumenti-Vari/I comandi da terminale necessari per sopravvivere a un corso del prof. Riboli.md",
+    "Materiali-Comuni/Strumenti-Vari/homebrew.md",
     "Materiali-Comuni/IA/ComfyUI/Guida 01 - Installazione di ComfyUI in locale.md",
+    "Materiali-Comuni/Strumenti-Vari",
+    "01-Computer Art/02-Lezioni/Lezione 01.md",
+    "Materiali-Comuni/Strumenti-Obsidian/Modelli/Dispense.md",
+    "02-Tecnologie e Applicazioni Digitali/02-Lezioni/Lezione 01.md",
     "01-Computer Art/01-Intro/01-CA-Programma.md",
     "Materiali-Comuni/Strumenti-Obsidian/Modelli/LezioneCA.md",
     "Materiali-Comuni/Strumenti-Obsidian/Modelli/LezioneTAD.md",
@@ -182,16 +187,12 @@
     "02-Tecnologie e Applicazioni Digitali/01-Intro",
     "01-Computer Art/03-Materiali/Strumenti Obsidian/Modelli/Lezione.md",
     "01-Computer Art/03-Materiali/PDF/ImpactofGenerativeDesign.pdf",
-    "03-Materiali/PDF/thesis-50_opt.pdf",
     "![[WhatIsGenerativeArt.pdf]].md",
     "02-Lezioni/Lezione 02.md",
     "02-Registro/Rossi Mario.md",
     "02-Registro/Bianchi Paola.md",
     "03-Lezioni/Lezione 05.md",
     "03-Lezioni/Lezione 04.md",
-    "03-Lezioni/Lezione 01 1 1 1 1 1.md",
-    "02-Registro/Registro assenze.md",
-    "02-Registro/Frequenze.md",
-    "Lezione 01.md"
+    "03-Lezioni/Lezione 01 1 1 1 1 1.md"
   ]
 }
