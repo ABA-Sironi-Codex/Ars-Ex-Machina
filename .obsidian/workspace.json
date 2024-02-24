@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1bf568661d5e18cd",
+        "id": "da927e623008b5ab",
         "type": "tabs",
         "children": [
           {
-            "id": "0e0f59765c622f5e",
+            "id": "c93b1006ee490754",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 200
   },
   "right": {
     "id": "ad0c93f8488f1c2b",
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md"
               }
             }
           },
@@ -155,14 +155,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0e0f59765c622f5e",
+  "active": "c93b1006ee490754",
   "lastOpenFiles": [
-    "headerimg.webp",
-    "Materiali-Comuni/IA/ComfyUI/Guida 02 - Installazione di ComfyUI Manager.md",
+    "Materiali-Comuni/IA/RisorsePerPrompt/128-photography-prompts-for-AI-image-generation.png",
+    "Materiali-Comuni/IA/RisorsePerPrompt/Risorse per la costruzione di prompt.md",
+    "Materiali-Comuni/IA/RisorsePerPrompt/The-DALL·E-2-prompt-book-v1.02.pdf",
     "Scelte-Rapide.md",
+    "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md",
+    "Materiali-Comuni/IA/RisorsePerPrompt/128-art-styles-for-AI-image-generation.png",
+    "Materiali-Comuni/IA/RisorsePerPrompt",
+    "Materiali-Comuni/IA/ComfyUI/Guida03-Materiali/workflow/workflow.json",
+    "Materiali-Comuni/IA/ComfyUI/Guida03-Materiali/workflow",
+    "Materiali-Comuni/IA/ComfyUI/Guida03-Materiali/Bn_01.webp",
+    "Materiali-Comuni/IA/ComfyUI/Guida03-Materiali",
+    "Materiali-Comuni/IA/ComfyUI/Guida 02 - Installazione di ComfyUI Manager.md",
+    "Materiali-Comuni/IA/ComfyUI/Guida 01 - Installazione di ComfyUI in locale.md",
+    "README.md",
+    "headerimg.webp",
     "Materiali-Comuni/Strumenti-Vari/I comandi da terminale necessari per sopravvivere a un corso del prof. Riboli.md",
     "Materiali-Comuni/Strumenti-Vari/homebrew.md",
-    "Materiali-Comuni/IA/ComfyUI/Guida 01 - Installazione di ComfyUI in locale.md",
     "Materiali-Comuni/Strumenti-Vari",
     "01-Computer Art/02-Lezioni/Lezione 01.md",
     "Materiali-Comuni/Strumenti-Obsidian/Modelli/Dispense.md",
@@ -173,7 +184,6 @@
     "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
     "Materiali-Comuni/IA/ComfyUI",
     "Materiali-Comuni/IA",
-    "README.md",
     "01-Computer Art/01-Intro/02-CA-Registro.md",
     "02-Tecnologie e Applicazioni Digitali/01-Intro/02-TAD-Registro.md",
     "Materiali-Comuni/DR/02-DR_CV.md",
@@ -181,18 +191,11 @@
     "Materiali-Comuni/DR/DR.webp",
     "Materiali-Comuni/DR",
     "Materiali-Comuni/Strumenti-Obsidian/Modelli",
-    "Materiali-Comuni/Strumenti-Obsidian",
-    "02-Tecnologie e Applicazioni Digitali/03-Materiali",
-    "02-Tecnologie e Applicazioni Digitali/02-Lezioni",
-    "02-Tecnologie e Applicazioni Digitali/01-Intro",
     "01-Computer Art/03-Materiali/Strumenti Obsidian/Modelli/Lezione.md",
-    "01-Computer Art/03-Materiali/PDF/ImpactofGenerativeDesign.pdf",
     "![[WhatIsGenerativeArt.pdf]].md",
     "02-Lezioni/Lezione 02.md",
     "02-Registro/Rossi Mario.md",
     "02-Registro/Bianchi Paola.md",
-    "03-Lezioni/Lezione 05.md",
-    "03-Lezioni/Lezione 04.md",
-    "03-Lezioni/Lezione 01 1 1 1 1 1.md"
+    "03-Lezioni/Lezione 05.md"
   ]
 }

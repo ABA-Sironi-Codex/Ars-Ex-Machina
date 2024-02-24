@@ -7,12 +7,6 @@ tags:
   - Dispense
 ---
 
-## Abstract
-
-[ComfyUI](https://github.com/comfyanonymous/ComfyUI) è la più diffusa interfaccia *open source* per la generazione di immagini e video con modelli [StableDiffusion](https://stability.ai). In questa guida vediamo come installarla sotto Linux, Macintosh e Windows.
-
----
-
 ## Indice dei contenuti
 
 ```table-of-contents
