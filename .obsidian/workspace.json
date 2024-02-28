@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md",
-                "mode": "preview",
+                "file": "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -89,7 +89,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md",
+                "file": "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md",
+                "file": "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md"
+                "file": "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md"
               }
             }
           },
@@ -157,11 +159,13 @@
   },
   "active": "c93b1006ee490754",
   "lastOpenFiles": [
+    "02-Tecnologie e Applicazioni Digitali/02-Lezioni/Lezione 01.md",
+    "README.md",
+    "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md",
     "Materiali-Comuni/IA/RisorsePerPrompt/128-photography-prompts-for-AI-image-generation.png",
     "Materiali-Comuni/IA/RisorsePerPrompt/Risorse per la costruzione di prompt.md",
     "Materiali-Comuni/IA/RisorsePerPrompt/The-DALL·E-2-prompt-book-v1.02.pdf",
     "Scelte-Rapide.md",
-    "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md",
     "Materiali-Comuni/IA/RisorsePerPrompt/128-art-styles-for-AI-image-generation.png",
     "Materiali-Comuni/IA/RisorsePerPrompt",
     "Materiali-Comuni/IA/ComfyUI/Guida03-Materiali/workflow/workflow.json",
@@ -170,14 +174,12 @@
     "Materiali-Comuni/IA/ComfyUI/Guida03-Materiali",
     "Materiali-Comuni/IA/ComfyUI/Guida 02 - Installazione di ComfyUI Manager.md",
     "Materiali-Comuni/IA/ComfyUI/Guida 01 - Installazione di ComfyUI in locale.md",
-    "README.md",
     "headerimg.webp",
     "Materiali-Comuni/Strumenti-Vari/I comandi da terminale necessari per sopravvivere a un corso del prof. Riboli.md",
     "Materiali-Comuni/Strumenti-Vari/homebrew.md",
     "Materiali-Comuni/Strumenti-Vari",
     "01-Computer Art/02-Lezioni/Lezione 01.md",
     "Materiali-Comuni/Strumenti-Obsidian/Modelli/Dispense.md",
-    "02-Tecnologie e Applicazioni Digitali/02-Lezioni/Lezione 01.md",
     "01-Computer Art/01-Intro/01-CA-Programma.md",
     "Materiali-Comuni/Strumenti-Obsidian/Modelli/LezioneCA.md",
     "Materiali-Comuni/Strumenti-Obsidian/Modelli/LezioneTAD.md",

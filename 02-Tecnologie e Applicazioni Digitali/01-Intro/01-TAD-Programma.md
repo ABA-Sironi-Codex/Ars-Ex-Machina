@@ -57,7 +57,7 @@ Gli ultimi due punti sono da intendersi come caldamente raccomandati, ma comunqu
 
 Tutte le dispense, la bibliografia obbligatoria, gli strumenti necessari e l'indice completo delle lezioni sono erogati attraverso:
 
-- ABA Sironi Classroom (codice iscrizione studenti: **cuugsbu**)
+- ABA Sironi Classroom (codice iscrizione studenti: **dhlrr34**)
 - Questo *repository*.
 
 > [!Warning] Attenzione!
