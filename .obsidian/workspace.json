@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
-                "mode": "source",
+                "file": "01-Computer Art/02-Lezioni/Lezione 01.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
+                "file": "01-Computer Art/02-Lezioni/Lezione 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
+                "file": "01-Computer Art/02-Lezioni/Lezione 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md"
+                "file": "01-Computer Art/02-Lezioni/Lezione 01.md"
               }
             }
           },
@@ -159,6 +159,9 @@
   },
   "active": "c93b1006ee490754",
   "lastOpenFiles": [
+    "Materiali-Comuni/Strumenti-Vari/I comandi da terminale necessari per sopravvivere a un corso del prof. Riboli.md",
+    "01-Computer Art/01-Intro/01-CA-Programma.md",
+    "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
     "02-Tecnologie e Applicazioni Digitali/02-Lezioni/Lezione 01.md",
     "README.md",
     "Materiali-Comuni/IA/ComfyUI/Guida 03 - Generazione e upscaling di immagini fotorealistiche in ComfyUI.md",
@@ -175,15 +178,12 @@
     "Materiali-Comuni/IA/ComfyUI/Guida 02 - Installazione di ComfyUI Manager.md",
     "Materiali-Comuni/IA/ComfyUI/Guida 01 - Installazione di ComfyUI in locale.md",
     "headerimg.webp",
-    "Materiali-Comuni/Strumenti-Vari/I comandi da terminale necessari per sopravvivere a un corso del prof. Riboli.md",
     "Materiali-Comuni/Strumenti-Vari/homebrew.md",
     "Materiali-Comuni/Strumenti-Vari",
     "01-Computer Art/02-Lezioni/Lezione 01.md",
     "Materiali-Comuni/Strumenti-Obsidian/Modelli/Dispense.md",
-    "01-Computer Art/01-Intro/01-CA-Programma.md",
     "Materiali-Comuni/Strumenti-Obsidian/Modelli/LezioneCA.md",
     "Materiali-Comuni/Strumenti-Obsidian/Modelli/LezioneTAD.md",
-    "02-Tecnologie e Applicazioni Digitali/01-Intro/01-TAD-Programma.md",
     "Materiali-Comuni/IA/ComfyUI",
     "Materiali-Comuni/IA",
     "01-Computer Art/01-Intro/02-CA-Registro.md",
