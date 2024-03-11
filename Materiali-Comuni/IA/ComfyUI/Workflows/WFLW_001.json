@@ -1,0 +1,568 @@
+{
+  "last_node_id": 12,
+  "last_link_id": 9,
+  "nodes": [
+    {
+      "id": 2,
+      "type": "Note",
+      "pos": [
+        978.6598217056869,
+        -59.78582765525819
+      ],
+      "size": {
+        "0": 210,
+        "1": 197.37457275390625
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Il primo nodo è (quasi) sempre un KSampler: partendo dalle porte I/O di questo è abbastanza semplice costruire una patch base."
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 4,
+      "type": "Note",
+      "pos": [
+        -1151.3556368301386,
+        -47.03057445716854
+      ],
+      "size": {
+        "0": 210,
+        "1": 72.95132446289062
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Il \"Load Checkpoint\" carica il modello LLMcon cui ci si appresta a lavorare."
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 9,
+      "type": "Note",
+      "pos": [
+        126.32511537475594,
+        509.01011333007716
+      ],
+      "size": {
+        "0": 297.2855529785156,
+        "1": 71.04427337646484
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "I parametri base dello \"Spazio Latente\" che determineranno le dimensioni delle immagini generate."
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 3,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        -911.3556368301378,
+        -47.03057445716854
+      ],
+      "size": {
+        "0": 382.6341857910156,
+        "1": 98.62334442138672
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1
+          ],
+          "shape": 3
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            4,
+            5
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            8
+          ],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "title": "02-Load Checkpoint",
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "Newrealityxl21Bkdvae.71Bq.safetensors"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 11,
+      "type": "SaveImage",
+      "pos": [
+        1308.2651610595697,
+        402.74262067871075
+      ],
+      "size": {
+        "0": 397.06396484375,
+        "1": 428.6885070800781
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 9
+        }
+      ],
+      "title": "07-Save Image",
+      "properties": {},
+      "widgets_values": [
+        "ComfyUI"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 12,
+      "type": "Note",
+      "pos": [
+        997,
+        519.8713073730469
+      ],
+      "size": {
+        "0": 289.62359619140625,
+        "1": 113.43638610839844
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Il \"VAE Decode\" trasforma i dati dello spazio latente in pixel e il \"Save Image\" provvede a salvare l'immagine su disco."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 10,
+      "type": "VAEDecode",
+      "pos": [
+        995,
+        406.8713073730469
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            9
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "06-VAE Decode",
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 7,
+      "type": "Note",
+      "pos": [
+        -330.93067154540984,
+        8.926910786438395
+      ],
+      "size": {
+        "0": 334.9860534667969,
+        "1": 127.66940307617188
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "I nodi 3 e 4 sono quelli incaricati di raccogliere il prompt positivo e negativo."
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 1,
+      "type": "KSampler",
+      "pos": [
+        626.3309509244386,
+        -91.5383798851013
+      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1,
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 2,
+          "slot_index": 1
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 3
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 6,
+          "slot_index": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            7
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "01-KSampler",
+      "properties": {
+        "Node name for S&R": "01-KSampler"
+      },
+      "widgets_values": [
+        705394188940405,
+        "randomize",
+        20,
+        7,
+        "euler_ancestral",
+        "karras",
+        1
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 8,
+      "type": "EmptyLatentImage",
+      "pos": [
+        116,
+        339
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            6
+          ],
+          "shape": 3
+        }
+      ],
+      "title": "05-Empty Latent Image",
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        512,
+        512,
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -360.9306715454095,
+        188.92691078643668
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 5,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            3
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "04-CLIP Text Encode (Prompt)",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 5,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -360.9306715454095,
+        -241.07308921356218
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            2
+          ],
+          "shape": 3
+        }
+      ],
+      "title": "03-CLIP Text Encode (Prompt)",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    }
+  ],
+  "links": [
+    [
+      1,
+      3,
+      0,
+      1,
+      0,
+      "MODEL"
+    ],
+    [
+      2,
+      5,
+      0,
+      1,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      3,
+      6,
+      0,
+      1,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      4,
+      3,
+      1,
+      5,
+      0,
+      "CLIP"
+    ],
+    [
+      5,
+      3,
+      1,
+      6,
+      0,
+      "CLIP"
+    ],
+    [
+      6,
+      8,
+      0,
+      1,
+      3,
+      "LATENT"
+    ],
+    [
+      7,
+      1,
+      0,
+      10,
+      0,
+      "LATENT"
+    ],
+    [
+      8,
+      3,
+      2,
+      10,
+      1,
+      "VAE"
+    ],
+    [
+      9,
+      10,
+      0,
+      11,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "Group",
+      "bounding": [
+        561,
+        -173,
+        690,
+        359
+      ],
+      "color": "#3f789e",
+      "font_size": 24
+    },
+    {
+      "title": "Group",
+      "bounding": [
+        -1173,
+        -132,
+        667,
+        214
+      ],
+      "color": "#A88",
+      "font_size": 24
+    },
+    {
+      "title": "Group",
+      "bounding": [
+        -375,
+        -316,
+        423,
+        718
+      ],
+      "color": "#b06634",
+      "font_size": 24
+    },
+    {
+      "title": "Group",
+      "bounding": [
+        106,
+        265,
+        335,
+        325
+      ],
+      "color": "#8A8",
+      "font_size": 24
+    },
+    {
+      "title": "Group",
+      "bounding": [
+        985,
+        329,
+        730,
+        513
+      ],
+      "color": "#b58b2a",
+      "font_size": 24
+    }
+  ],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
